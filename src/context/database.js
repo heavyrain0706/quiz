@@ -194,7 +194,7 @@ export const footballQuestions = [
     {
         questionText: 'Лушчий бомбардир Ла Лиги за всю историю',
         answerOptions: [
-            {answerText: 'Месси', isCorrect: true},
+            {answerText: 'Лионель Месси', isCorrect: true},
             {answerText: 'Криштиану Роналду', isCorrect: false},
             {answerText: 'Альфредо ди Стефано', isCorrect: true},
             {answerText: 'Паиньо', isCorrect: false}
@@ -203,8 +203,8 @@ export const footballQuestions = [
     {
         questionText: 'Лучший бомбардир АПЛ за всю историю',
         answerOptions: [
-            {answerText: 'Уєйн Руни', isCorrect: false},
-            {answerText: 'Серхио Агуєро', isCorrect: false},
+            {answerText: 'Уэйн Руни', isCorrect: false},
+            {answerText: 'Серхио Агуэро', isCorrect: false},
             {answerText: 'Алан Ширер', isCorrect: true},
             {answerText: 'Фрэнк Лемпард', isCorrect: false}
         ]
