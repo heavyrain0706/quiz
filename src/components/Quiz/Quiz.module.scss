@@ -1,4 +1,4 @@
-.quiz {
+.quiz__body {
     background-color: #252d42;
     width: 600px;
     height: 300px;
@@ -18,10 +18,34 @@
 
 .questions__count {
     margin: 0 0 20px 0;
-
      span {
          font-size: 26px;
      }
+}
+
+.quiz__scoreText {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.quiz__score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz__againBtn {
+    color: #fff;
+    background-color: #252d42;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: 2px solid #234668;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: color 0.2s, background-color 0.2s;
+        &:hover {
+            background-color: #234668;
+        }
 }
 
 .answers {

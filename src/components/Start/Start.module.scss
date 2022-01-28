@@ -1,0 +1,36 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.start__title {
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: #252d42;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    flex: 0 1 48%;
+        img{
+            border-radius: 50px;
+            transition: all 0.3s;
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.8);
+            }
+        }
+    
+}
