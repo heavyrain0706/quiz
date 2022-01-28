@@ -1,6 +1,4 @@
 import classes from './Start.module.scss'
-import geoImage from '../../assets/images/geo.jpg'
-import footballImage from '../../assets/images/football.jpg'
 import { useContext, useState } from 'react'
 import { dataContext } from '../../context'
 import Quiz from '../Quiz/Quiz'
@@ -34,11 +32,9 @@ const Start = () => {
                 <div className={classes.start}>
                     <h2 className={classes.start__title}>Выберите категорию</h2>
                     <div className={classes.start__buttons}>
-                        <button onClick={() => chooseHandler('geo')} className={classes.start__button}>
-                            <img src={geoImage} alt="geo" />
+                        <button onClick={() => chooseHandler('geo')} className={`${classes.start__button} ${classes.start__button_geo}`}>
                         </button>
-                        <button onClick={() => chooseHandler('football')} className={classes.start__button}>
-                            <img src={footballImage} alt="football" />
+                        <button onClick={() => chooseHandler('football')} className={`${classes.start__button} ${classes.start__button_football}`}>
                         </button>
                     </div>
                 </div>
